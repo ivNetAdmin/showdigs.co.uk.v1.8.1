@@ -1,0 +1,5 @@
+F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll.config
+F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll
+F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.pdb
+F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.dll
+F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.pdb
