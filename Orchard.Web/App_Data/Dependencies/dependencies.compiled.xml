@@ -4,7 +4,7 @@
     <ExtensionId>ivNet.Listing</ExtensionId>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/ivNet.Listing/bin/ivNet.Listing.dll</VirtualPath>
-    <Hash>2616860672cf9bba</Hash>
+    <Hash>261686c10c09f86a</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>ivNet.Mail</ExtensionId>

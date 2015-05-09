@@ -1,0 +1,415 @@
+2015-05-09 09:08:44,361 [5] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-09 10:16:15,502 [45] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:16:15,518 [76] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-09 10:16:15,747 [45] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.Listing"
+2015-05-09 10:17:21,354 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:21,785 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:21,870 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:21,978 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,082 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,205 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,263 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,329 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,385 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,473 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,602 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,663 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,756 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:22,871 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,032 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,092 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,192 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,285 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,334 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,386 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,437 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,497 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,579 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,642 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,700 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,754 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,807 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,864 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,919 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:23,972 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:24,025 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:24,217 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:24,314 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:24,366 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:24,427 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:24,479 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:27,566 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:27,614 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:27,666 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:17:27,716 [76] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Controllers\api\ConfigurationController.cs(52): error CS0161: 'ivNet.Listing.Controllers.api.ConfigurationController.Delete(int, string)': not all code paths return a value
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-09 10:19:11,199 [17] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-09 10:28:30,201 [72] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"

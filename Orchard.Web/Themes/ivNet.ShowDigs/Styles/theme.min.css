@@ -1,0 +1,16 @@
+﻿/*https://css-tricks.com/css3-gradients/*/
+.widget-LogoPane {
+  background-image:
+    repeating-radial-gradient(
+      purple, blueviolet
+    );
+}
+
+.group:after
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
