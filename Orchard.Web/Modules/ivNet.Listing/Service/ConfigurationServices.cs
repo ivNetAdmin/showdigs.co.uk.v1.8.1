@@ -13,6 +13,9 @@ namespace ivNet.Listing.Service
         ConfigurationViewModel GetConfiguration();
         void Delete(int id, string type);
         Category CreateCategory(string name);
+        Transport CreateTransport(string name);
+        TagText CreateTag(string name);
+        RoomType CreateRoomType(string name);
     }
 
     public class ConfigurationServices : BaseService, IConfigurationServices
@@ -29,11 +32,33 @@ namespace ivNet.Listing.Service
                 var listingCategoryList = session.CreateCriteria(typeof (Category))
                     .List<Category>().OrderBy(x => x.Name);
 
+                var listingTransportList = session.CreateCriteria(typeof(Transport))
+                   .List<Transport>().OrderBy(x => x.Name);
+
+                var roomTypeList = session.CreateCriteria(typeof(RoomType))
+                  .List<RoomType>().OrderBy(x => x.Name);
+
+                var tagTextList = session.CreateCriteria(typeof(TagText))
+                 .List<TagText>().OrderBy(x => x.Name);
+
                 var configurationViewModel = new ConfigurationViewModel
                 {
                     Categories = (from listingCategory in listingCategoryList
                         let listingCategoryViewModel = new ListingCategoryViewModel()
-                        select MapperHelper.Map(listingCategoryViewModel, listingCategory)).ToList()
+                        select MapperHelper.Map(listingCategoryViewModel, listingCategory)).ToList(),
+
+                    TransportList = (from listingTransport in listingTransportList
+                                  let listingTransportViewModel = new ListingTransportViewModel()
+                                     select MapperHelper.Map(listingTransportViewModel, listingTransport)).ToList(),
+
+                    RoomTypes = (from roomType in roomTypeList
+                                     let roomTypeViewModel = new ListingRoomTypeViewModel()
+                                 select MapperHelper.Map(roomTypeViewModel, roomType)).ToList(),
+
+                    TagTextList = (from tagText in tagTextList
+                                 let tagTextViewModel = new ListingTagTextViewModel()
+                                   select MapperHelper.Map(tagTextViewModel, tagText)).ToList()
+
                 };
 
                 return configurationViewModel;
@@ -56,6 +81,29 @@ namespace ivNet.Listing.Service
                             transaction.Commit();
                             break;
 
+                        case "transport":
+                            var transport = session.CreateCriteria(typeof(Transport))
+                                .List<Transport>().FirstOrDefault(x => x.Id == id);
+
+                            session.Delete(transport);
+                            transaction.Commit();
+                            break;
+
+                        case "tag":
+                            var tag = session.CreateCriteria(typeof(TagText))
+                                .List<TagText>().FirstOrDefault(x => x.Id == id);
+
+                            session.Delete(tag);
+                            transaction.Commit();
+                            break;
+
+                        case "roomType":
+                            var roomType = session.CreateCriteria(typeof(RoomType))
+                                .List<RoomType>().FirstOrDefault(x => x.Id == id);
+
+                            session.Delete(roomType);
+                            transaction.Commit();
+                            break;
                         default:
                             transaction.Rollback();
                             break;
@@ -77,6 +125,57 @@ namespace ivNet.Listing.Service
                     transaction.Commit();
 
                     return category;
+                }
+            }
+        }
+
+        public Transport CreateTransport(string name)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    var transport = new Transport { Name = name };
+
+                    SetAudit(transport);
+                    session.SaveOrUpdate(transport);
+                    transaction.Commit();
+
+                    return transport;
+                }
+            }
+        }
+
+        public TagText CreateTag(string name)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    var tag = new TagText { Name = name };
+
+                    SetAudit(tag);
+                    session.SaveOrUpdate(tag);
+                    transaction.Commit();
+
+                    return tag;
+                }
+            }
+        }
+
+        public RoomType CreateRoomType(string name)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    var roomType = new RoomType { Name = name };
+
+                    SetAudit(roomType);
+                    session.SaveOrUpdate(roomType);
+                    transaction.Commit();
+
+                    return roomType;
                 }
             }
         }

@@ -1,0 +1,418 @@
+2015-05-11 15:43:44,560 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-11 15:44:57,387 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-11 15:53:11,385 [9] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:11,405 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-11 15:53:11,433 [9] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.Listing"
+2015-05-11 15:53:28,646 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,241 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,334 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,416 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,498 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,580 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,651 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,750 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,828 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,918 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:29,987 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,047 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,118 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,197 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,275 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,333 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,390 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,459 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,519 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,586 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,648 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,733 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,836 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,904 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,952 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:30,998 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,049 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,095 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,203 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,266 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,312 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,388 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,445 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,524 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,604 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:31,678 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:34,280 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:34,325 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:34,370 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:53:34,416 [6] Orchard.Environment.DefaultBuildManager - (null) - Error when compiling assembly under ~/Modules/ivNet.Listing/ivNet.Listing.csproj.
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Service\ConfigurationServices.cs(43): error CS0266: Cannot implicitly convert type 'System.Collections.Generic.List<object>' to 'System.Collections.Generic.IEnumerable<ivNet.Listing.Models.ListingTransportViewModel>'. An explicit conversion exists (are you missing a cast?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Orchard.Environment.DefaultBuildManager.GetCompiledAssembly(String virtualPath) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Environment\IBuildManager.cs:line 53
+2015-05-11 15:57:14,871 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-11 16:10:49,181 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-11 16:52:01,662 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-11 16:59:51,491 [6] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"

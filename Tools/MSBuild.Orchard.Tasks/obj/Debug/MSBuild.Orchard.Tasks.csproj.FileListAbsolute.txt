@@ -3,3 +3,8 @@ F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb

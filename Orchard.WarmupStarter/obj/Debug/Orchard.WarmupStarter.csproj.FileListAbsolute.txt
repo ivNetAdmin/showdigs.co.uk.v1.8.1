@@ -3,3 +3,8 @@ F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\bin\Debug\Orchar
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.csprojResolveAssemblyReference.cache
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.dll
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.pdb

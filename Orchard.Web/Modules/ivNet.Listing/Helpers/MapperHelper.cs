@@ -36,6 +36,21 @@ namespace ivNet.Listing.Helpers
             return Mapper.Map(entity, viewModel);
         }
 
+        public static ListingTransportViewModel Map(ListingTransportViewModel viewModel, Transport entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static ListingRoomTypeViewModel Map(ListingRoomTypeViewModel viewModel, RoomType entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
+        public static ListingTagTextViewModel Map(ListingTagTextViewModel viewModel, TagText entity)
+        {
+            return Mapper.Map(entity, viewModel);
+        }
+
         public static ListingPackageViewModel Map(ListingPackageViewModel viewModel, PaymentPackage entity)
         {
             return Mapper.Map(entity, viewModel);
@@ -65,8 +80,8 @@ namespace ivNet.Listing.Helpers
         {
             return Mapper.Map(entity, viewModel);
         }
-
+      
         #endregion
-
+       
     }
 }

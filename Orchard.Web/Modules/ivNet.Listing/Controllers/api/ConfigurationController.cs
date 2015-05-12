@@ -39,6 +39,15 @@ namespace ivNet.Listing.Controllers.api
                     case "category":
                         rtnItem = _configurationServices.CreateCategory((string)item.Name);
                         break;
+                    case "transport":
+                        rtnItem = _configurationServices.CreateTransport((string)item.Name);
+                        break;
+                    case "roomType":
+                        rtnItem = _configurationServices.CreateRoomType((string)item.Name);
+                        break;
+                    case "tag":
+                        rtnItem = _configurationServices.CreateTag((string)item.Name);
+                        break;
                 }
 
                 return Request.CreateResponse(HttpStatusCode.OK, rtnItem);

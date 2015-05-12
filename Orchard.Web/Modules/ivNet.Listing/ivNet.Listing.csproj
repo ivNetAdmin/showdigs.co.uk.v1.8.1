@@ -415,6 +415,9 @@
     <Content Include="Styles\ivNet.Configuration.min.css" />
     <Content Include="Styles\ivNet.Listing.min.css" />
     <Content Include="Styles\jquery.fileupload.css" />
+    <Content Include="Views\Admin\Configuration\_TagText.cshtml" />
+    <Content Include="Views\Admin\Configuration\_RoomType.cshtml" />
+    <None Include="Views\Admin\Configuration\_Transport.cshtml" />
     <Content Include="Views\Admin\UserStories\_OwnerTab.cshtml" />
     <Content Include="Views\Admin\UserStories\_AdminTab.cshtml" />
     <Content Include="Views\Admin\UserStories\_Registration-Errors.cshtml" />
@@ -474,6 +477,9 @@
     <Compile Include="Entities\Room.cs" />
     <Compile Include="Entities\Tag.cs" />
     <Compile Include="Entities\Theatre.cs" />
+    <Compile Include="Entities\RoomType.cs" />
+    <Compile Include="Entities\TagText.cs" />
+    <Compile Include="Entities\Transport.cs" />
     <Compile Include="Helpers\CustomStringHelper.cs" />
     <Compile Include="Helpers\ImageHelper.cs" />
     <Compile Include="Helpers\MapperHelper.cs" />
@@ -485,6 +491,9 @@
     <Compile Include="Models\ListingCategoryViewModel.cs" />
     <Compile Include="Models\ListingDetailViewModel.cs" />
     <Compile Include="Models\ListingPackageViewModel.cs" />
+    <Compile Include="Models\ListingRoomTypeViewModel.cs" />
+    <Compile Include="Models\ListingTagTextViewModel.cs" />
+    <Compile Include="Models\ListingTransportViewModel.cs" />
     <Compile Include="Models\RegistrationViewModel.cs" />
     <Compile Include="Models\RoomViewModel.cs" />
     <Compile Include="Models\TagViewModel.cs" />

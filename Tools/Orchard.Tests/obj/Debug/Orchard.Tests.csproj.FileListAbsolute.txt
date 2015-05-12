@@ -9,3 +9,14 @@ F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Moq.xml
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.csprojResolveAssemblyReference.cache
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.dll
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Orchard.Tests.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Orchard.Tests.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Moq.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\nunit.framework.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Orchard.exe
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Orchard.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Moq.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\bin\Debug\Moq.xml
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.pdb

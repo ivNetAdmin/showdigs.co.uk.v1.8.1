@@ -4,3 +4,9 @@ F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\bin\Debug\Orchard.pdb
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\obj\Debug\Orchard.exe
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\obj\Debug\Orchard.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\bin\Debug\Orchard.exe.config
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\bin\Debug\Orchard.exe
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\bin\Debug\Orchard.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\obj\Debug\Orchard.exe
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Tools\Orchard\obj\Debug\Orchard.pdb

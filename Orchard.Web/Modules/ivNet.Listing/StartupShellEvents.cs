@@ -44,6 +44,9 @@ namespace ivNet.Listing
 
             Mapper.CreateMap<Category, ListingCategoryViewModel>();
             Mapper.CreateMap<PaymentPackage, ListingPackageViewModel>();
+            Mapper.CreateMap<Transport, ListingTransportViewModel>();
+            Mapper.CreateMap<RoomType, ListingRoomTypeViewModel>();
+            Mapper.CreateMap<TagText, ListingTagTextViewModel>();
 
             Mapper.CreateMap<Room, RoomViewModel>()
                 .ForMember(v => v.RoomType, m => m.MapFrom(e => e.Type));

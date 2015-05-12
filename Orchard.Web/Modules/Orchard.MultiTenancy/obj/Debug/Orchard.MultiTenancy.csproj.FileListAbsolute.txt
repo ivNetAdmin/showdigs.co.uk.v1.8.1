@@ -3,3 +3,10 @@ F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenan
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.pdb
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.dll
 F:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll.config
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.pdb
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\System.Web.Mvc.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\System.Web.Mvc.xml
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.dll
+E:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.pdb
