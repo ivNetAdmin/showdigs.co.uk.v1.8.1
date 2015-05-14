@@ -1,0 +1,69 @@
+﻿<!DOCTYPE HTML>
+<html lang="en_GB">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Exercise</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <div class="col-md-4">
+
+            <div class="form-group">
+                <label for="number1">Number:</label>
+                <input class="form-control" type="number" id="number1" />
+            </div>
+            <div class="form-group">
+                <label for="number2">Number:</label>
+                <input class="form-control" type="number" id="number2" />
+            </div>
+
+            <div class="form-group">
+                <input type="button" class="calcButton btn btn-info" name="add" value="+" />
+                <input type="button" class="calcButton btn btn-success" name="subtract" value="-" />
+                <input type="button" class="calcButton btn btn-warning" name="multiply" value="*" />
+                <input type="button" class="calcButton btn btn-default" name="divide" value="/" />
+            </div>
+
+            <div class="form-group">
+                <label for="result">Result:</label>
+                <input class="form-control" type="number" id="result" />
+            </div>
+
+        </div>
+    </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('input.calcButton').bind('click', function (e) {
+            var number1 = $('input#number1').val();
+            var number2 = $('input#number2').val();
+            var result = 0;
+            try{
+                switch(e.target.name)
+                {
+                    case "add":
+                        result = parseInt(number1) + parseInt(number2)
+                        break;
+                    case "subtract":
+                        result = parseInt(number1) - parseInt(number2)
+                        break;
+                    case "multiply":
+                        result = parseInt(number1) * parseInt(number2)
+                        break;
+                    case "divide":
+                        result = parseInt(number1) / parseInt(number2)
+                        break;
+                }
+            }catch(e)
+            {
+                alert(e.Message);
+            }
+            
+            $('input#result').val(result);
+        });
+    });
+</script>
+

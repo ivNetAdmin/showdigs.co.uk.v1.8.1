@@ -2,9 +2,9 @@
 <Dependencies>
   <Dependency>
     <ExtensionId>ivNet.Listing</ExtensionId>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
-    <VirtualPath>~/Modules/ivNet.Listing/bin/ivNet.Listing.dll</VirtualPath>
-    <Hash>2616911852af1bb3</Hash>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/ivNet.Listing/ivNet.Listing.csproj</VirtualPath>
+    <Hash>f9f44b98b6e74f37</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>ivNet.Mail</ExtensionId>

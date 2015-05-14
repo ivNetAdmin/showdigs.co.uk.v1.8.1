@@ -426,6 +426,7 @@
     <None Include="Styles\ivNet.Listing.less" />
     <Content Include="Views\Admin\Configuration\Index.cshtml" />
     <Content Include="Views\Admin\Configuration\_Categories.cshtml" />
+    <Content Include="Views\Admin\UserStories\_Configuration.cshtml" />
     <None Include="Views\Admin\UserStories\_Registration.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
@@ -445,6 +446,7 @@
     <Content Include="Views\Listings\_FileUpload.cshtml" />
     <Content Include="Views\Listings\_Description.cshtml" />
     <Content Include="Views\Listings\_List.cshtml" />
+    <Content Include="Views\Listings\_WebsiteUrl.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Orchard.Core">

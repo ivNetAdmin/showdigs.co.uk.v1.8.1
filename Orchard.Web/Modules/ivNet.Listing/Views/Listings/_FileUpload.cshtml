@@ -1,12 +1,12 @@
-﻿<div class="form-horizontal col-md-12 owner-detail">
+﻿<div class="form-horizontal col-md-12 owner-detail" id="ImageUploadForm">
     <div class="col-md-12">
-        <h4>Images <i class="btn icon-info info-colour" data-toggle="tooltip" data-placement="right" data-original-title="{{help_images}} "></i></h4>
+        <h4>Images <i class="btn icon-info info-colour" data-toggle="tooltip" data-placement="right" data-original-title="{{help_images}} "></i></h4> You may add {{ImageAllocation}} photos
         <hr />
     </div>
 
     <div class="col-md-12">
         <div class="form-group">
-            
+
             <div class="form-group">
                 <label class="control-label col-md-2" for="fileupload">File</label>
                 <div class="col-md-10">
@@ -19,7 +19,6 @@
             </div>
         </div>
     </div>
-
     @*<div class="col-md-offset-2 col-md-10">
             <div class="form-group">
                 <div class="progress">
@@ -31,7 +30,6 @@
                 </div>
             </div>
         </div>*@
-
     <div class="col-md-offset-2 col-md-10">
         <div class="form-group">
             <table tr-ng-grid='' items='fileList'
@@ -52,7 +50,6 @@
                             <i class="btn btn-danger icon-trash icon-white" ng-click="removeImage(gridItem)" rel="tooltip" title="Remove Image"></i>
                         </td>
                     </tr>
-
                 </tbody>
             </table>
         </div>

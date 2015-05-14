@@ -143,8 +143,8 @@
   </Dependency>
   <Dependency>
     <ModuleName>ivNet.Listing</ModuleName>
-    <VirtualPath>~/Modules/ivNet.Listing/bin/ivNet.Listing.dll</VirtualPath>
-    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <VirtualPath>~/Modules/ivNet.Listing/ivNet.Listing.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
     <References>
       <Reference>
         <Name>AutoMapper</Name>

@@ -17,3 +17,7 @@
     padding: 2px;
     margin: 6px 0;
 }
+
+section#listingEdit, div#cke_DescriptionHtml, div#WebsiteUrlForm, div#ImageUploadForm {
+    display: none;
+}

@@ -24,6 +24,13 @@ namespace ivNet.Listing.Entities
             Map(x => x.Transport).Nullable().Length(50);
 
             References(x => x.ListingDetail);
+
+            Map(x => x.IsActive);
+
+            Map(x => x.CreatedBy).Not.Nullable().Length(50);
+            Map(x => x.CreateDate).Not.Nullable();
+            Map(x => x.ModifiedBy).Not.Nullable().Length(50);
+            Map(x => x.ModifiedDate).Not.Nullable();
         }
     }
 }

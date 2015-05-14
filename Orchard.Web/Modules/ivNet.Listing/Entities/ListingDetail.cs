@@ -11,6 +11,8 @@ namespace ivNet.Listing.Entities
     {
         public virtual string ListingKey { get; set; }
         public virtual string Description { get; set; }
+        public virtual string WebsiteUrl { get; set; }
+        public virtual byte IsPriority { get; set; }
         public virtual DateTime ExpiraryDate { get; set; }
 
         public virtual Owner Owner { get; set; }
@@ -39,7 +41,8 @@ namespace ivNet.Listing.Entities
             Id(x => x.Id);
 
             Map(x => x.ListingKey).Not.Nullable().Length(50);
-            Map(x => x.Description).Not.Nullable().Length(4500);
+            Map(x => x.Description).Nullable().Length(4500);
+            Map(x => x.WebsiteUrl).Nullable().Length(255);
             Map(x => x.ExpiraryDate).Not.Nullable();
 
             References(x => x.AddressDetail);
@@ -63,6 +66,15 @@ namespace ivNet.Listing.Entities
             HasMany(x => x.Rooms)
              .Inverse()
              .Cascade.All();
+
+            Map(x => x.IsPriority);
+
+            Map(x => x.IsActive);
+
+            Map(x => x.CreatedBy).Not.Nullable().Length(50);
+            Map(x => x.CreateDate).Not.Nullable();
+            Map(x => x.ModifiedBy).Not.Nullable().Length(50);
+            Map(x => x.ModifiedDate).Not.Nullable();
         }
     }
 }
