@@ -4,7 +4,7 @@
     <ExtensionId>ivNet.Listing</ExtensionId>
     <LoaderName>DynamicExtensionLoader</LoaderName>
     <VirtualPath>~/Modules/ivNet.Listing/ivNet.Listing.csproj</VirtualPath>
-    <Hash>f9f44b98b6e74f37</Hash>
+    <Hash>42c78b0c46778a01</Hash>
   </Dependency>
   <Dependency>
     <ExtensionId>ivNet.Mail</ExtensionId>

@@ -11,6 +11,7 @@ namespace ivNet.Listing.Models
         public int CategoryId { get; set; }       
 
         public string Description { get; set; }
+        public string DescriptionHtml { get; set; }        
 
         public string Package { get; set; }        
         public string Category { get; set; }

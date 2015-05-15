@@ -27,7 +27,8 @@ namespace ivNet.Listing.Controllers.api
 
         public HttpResponseMessage Get()
         {
-            if (!_orchardServices.Authorizer.Authorize(Permissions.ivOwnerTab))
+            if (!_orchardServices.Authorizer.Authorize(Permissions.ivOwnerTab)
+                && !_orchardServices.Authorizer.Authorize(Permissions.ivAdminTab))
                 return Request.CreateResponse(HttpStatusCode.Forbidden);
 
             return Request.CreateResponse(HttpStatusCode.OK,

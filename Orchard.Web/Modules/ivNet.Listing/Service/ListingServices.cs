@@ -16,14 +16,20 @@ namespace ivNet.Listing.Service
     public interface IListingServices : IDependency
     {
         IEnumerable<ListingDetailViewModel> GetListings(string eMail);
+        IEnumerable<ListingDetailViewModel> GetAdminListings();
+        IEnumerable<ListingDetailViewModel> GetPackageListings(); 
+        
         IEnumerable<ListingCategoryViewModel> GetListingCategories();
         IEnumerable<ListingPackageViewModel> GetListingPackages();
         EditListingViewModel GetListing(int id);
+
+        void AuthoriseListing(int id);
+        void CancelListing(int id);        
     }
 
     public class ListingServices : BaseService, IListingServices
     {
-        public ListingServices(IAuthenticationService authenticationService) 
+        public ListingServices(IAuthenticationService authenticationService)
             : base(authenticationService)
         {
         }
@@ -32,14 +38,44 @@ namespace ivNet.Listing.Service
         {
             using (var session = NHibernateHelper.OpenSession())
             {
+                var ownerKey = CustomStringHelper.BuildKey(new[] { eMail });
+
                 var listingDetailList = session.CreateCriteria(typeof (ListingDetail))
-                    .List<ListingDetail>().Where(x => x.Owner.ContactDetail.Email.Equals(eMail));
+                    .List<ListingDetail>().Where(x => x.Owner.OwnerKey.Equals(ownerKey));
+
+                return (from listingDetail in listingDetailList
+                    let listingDetailViewModel = new ListingDetailViewModel()
+                    select MapperHelper.Map(listingDetailViewModel, listingDetail)).ToList();
+
+            }
+        }
+
+        public IEnumerable<ListingDetailViewModel> GetPackageListings()
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                var listingDetailList = session.CreateCriteria(typeof (ListingDetail))
+                    .List<ListingDetail>().Where(x => x.IsVetted.Equals(0));
+
+                return (from listingDetail in listingDetailList
+                    let listingDetailViewModel = new ListingDetailViewModel()
+                    select MapperHelper.Map(listingDetailViewModel, listingDetail)).ToList();
+
+            }
+        }
+
+        public IEnumerable<ListingDetailViewModel> GetAdminListings()
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                var listingDetailList = session.CreateCriteria(typeof(ListingDetail))
+                    .List<ListingDetail>();
 
                 return (from listingDetail in listingDetailList
                         let listingDetailViewModel = new ListingDetailViewModel()
                         select MapperHelper.Map(listingDetailViewModel, listingDetail)).ToList();
 
-            }            
+            }
         }
 
         public IEnumerable<ListingCategoryViewModel> GetListingCategories()
@@ -50,22 +86,22 @@ namespace ivNet.Listing.Service
                     .List<Category>().OrderBy(x => x.Name);
 
                 return (from listingCategory in listingCategoryList
-                        let listingCategoryViewModel = new ListingCategoryViewModel()
-                        select MapperHelper.Map(listingCategoryViewModel, listingCategory)).ToList();
+                    let listingCategoryViewModel = new ListingCategoryViewModel()
+                    select MapperHelper.Map(listingCategoryViewModel, listingCategory)).ToList();
 
-            }       
+            }
         }
 
         public IEnumerable<ListingPackageViewModel> GetListingPackages()
         {
             using (var session = NHibernateHelper.OpenSession())
             {
-                var listingPackageList = session.CreateCriteria(typeof(PaymentPackage))
+                var listingPackageList = session.CreateCriteria(typeof (PaymentPackage))
                     .List<PaymentPackage>().OrderBy(x => x.Name);
 
                 return (from listingPackage in listingPackageList
-                        let listingPackageViewModel = new ListingPackageViewModel()
-                        select MapperHelper.Map(listingPackageViewModel, listingPackage)).ToList();
+                    let listingPackageViewModel = new ListingPackageViewModel()
+                    select MapperHelper.Map(listingPackageViewModel, listingPackage)).ToList();
 
             }
         }
@@ -102,7 +138,53 @@ namespace ivNet.Listing.Service
                 listing.Description = description.ToString();
 
                 return listing;
-            }          
+            }
         }
+
+        public void AuthoriseListing(int id)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    var listingDetail = session.CreateCriteria(typeof(ListingDetail))
+                   .List<ListingDetail>().FirstOrDefault(x => x.Id.Equals(id));
+
+                    if (listingDetail != null)
+                    {
+                        listingDetail.IsVetted = 1;
+                        SetAudit(listingDetail);
+                        session.SaveOrUpdate(listingDetail);
+
+                        transaction.Commit();    
+                        return;
+                    }
+                    transaction.Rollback();
+                }
+            }
+        }
+
+        public void CancelListing(int id)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    var listingDetail = session.CreateCriteria(typeof(ListingDetail))
+                   .List<ListingDetail>().FirstOrDefault(x => x.Id.Equals(id));
+
+                    if (listingDetail != null)
+                    {
+                        listingDetail.IsVetted = 0;
+                        SetAudit(listingDetail);
+                        session.SaveOrUpdate(listingDetail);
+
+                        transaction.Commit();    
+                        return;
+                    }
+                    transaction.Rollback();
+                }
+            }
+        }        
     }
 }

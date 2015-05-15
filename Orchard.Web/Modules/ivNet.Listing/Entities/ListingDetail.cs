@@ -13,6 +13,7 @@ namespace ivNet.Listing.Entities
         public virtual string Description { get; set; }
         public virtual string WebsiteUrl { get; set; }
         public virtual byte IsPriority { get; set; }
+        public virtual byte IsVetted { get; set; }
         public virtual DateTime ExpiraryDate { get; set; }
 
         public virtual Owner Owner { get; set; }
@@ -44,6 +45,8 @@ namespace ivNet.Listing.Entities
             Map(x => x.Description).Nullable().Length(4500);
             Map(x => x.WebsiteUrl).Nullable().Length(255);
             Map(x => x.ExpiraryDate).Not.Nullable();
+
+            Map(x => x.IsVetted);
 
             References(x => x.AddressDetail);
             References(x => x.Location);

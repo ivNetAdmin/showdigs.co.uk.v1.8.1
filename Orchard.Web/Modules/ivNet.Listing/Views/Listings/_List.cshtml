@@ -5,12 +5,12 @@
             <th field-name="PaymentPackageName" display-name="Package"></th>
             <th field-name="Address" display-name="Address"></th>
             <th field-name="PostCode" display-name="PostCode"></th>            
-            <th field-name="PaymentPackageExpiraryDate" display-name="Expires"></th>
+            <th field-name="PaymentPackageExpiraryDate" display-name="Expires" display-format="dateField:gridItem"></th>                      
+             <th display-name="Edit"></th> 
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td field-name="File"><img src="{{gridDisplayItem.File}}" /></td>
+        <tr>          
             <td>
                 <i class="btn btn-primary icon-edit icon-white" ng-click="editListing(gridItem)" rel="tooltip" title="Edit Listing"></i>
             </td>

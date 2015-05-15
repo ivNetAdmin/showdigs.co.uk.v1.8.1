@@ -23,6 +23,7 @@ namespace ivNet.Listing
             
             Mapper.CreateMap<ListingDetail,ListingDetailViewModel>()
                 .ForMember(v => v.Id, m => m.MapFrom(e => e.Id))
+                .ForMember(v=>v.Owner,m=>m.MapFrom(e=>string.Format("{0}, {1}",e.Owner.Surname,e.Owner.Firstname)))
                 .ForMember(v => v.PostCode, m => m.MapFrom(e => e.AddressDetail.Postcode))
                 .ForMember(v => v.PaymentPackageName, m => m.MapFrom(e => e.PaymentPackage.Name))                
                 .ForMember(v => v.Address, m => m.MapFrom(e => 

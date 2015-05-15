@@ -12,36 +12,13 @@
 }
 
 <div id="ListingsGrid" data-ng-app="ivNet.Listings">
-    <div data-ng-controller="ListingsController">
+    <div data-ng-controller="ListingsController" data-task="owner">
         <section id="listingTable">
             <div class="col-md-offset-11 col-md-12">
                 <input type="button" value="Add" class="btn btn-info" ng-click="addListing()">
             </div>
             @Html.Partial("Listings/_List")
         </section>
-        <section id="listingEdit">
-            @using (Html.BeginForm("AddListing", "SecureSite", new { area = "ivNet.Listing" }))
-            {
-                @Html.AntiForgeryToken()
-
-                <div class="col-md-offset-11 col-md-12">
-                    <input type="submit" value="Save" class="btn btn-success" ng-click="saveListing()">
-                </div>
-
-                <div class="col-md-6">
-                    @Html.Partial("Listings/_PaymentPackage")
-                    @Html.Partial("Listings/_AddressDetails")
-                    @Html.Partial("Listings/_Description")
-                    @Html.Partial("Listings/_FileUpload")
-                </div>
-
-                <div class="col-md-6">
-                    @Html.Partial("Listings/_Rooms")
-                    @Html.Partial("Listings/_LocalTheatres")
-                    @Html.Partial("Listings/_Tags")
-                    @Html.Partial("Listings/_WebsiteUrl")
-                </div>
-            }
-        </section>
+        @Html.Partial("Listings/_Edit")
     </div>
 </div>

@@ -117,7 +117,9 @@ namespace ivNet.Listing.Service
 
                     listing.ExpiraryDate = DateTime.Now;
 
-                    listing.Description = model.Description;
+                    listing.Description = package==null || package.Id == 1
+                        ? model.Description
+                        : model.DescriptionHtml;
                     listing.AddressDetail = address;
                     listing.Owner = owner;
                     listing.PaymentPackage = package;

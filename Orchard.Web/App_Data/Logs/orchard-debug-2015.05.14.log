@@ -1,0 +1,207 @@
+2015-05-14 14:17:53,616 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 14:24:39,619 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 14:25:09,619 [9] NHibernate.Tool.hbm2ddl.SchemaUpdate - (null) - Unsuccessful: alter table ivNetListingDetail add IsVetted TINYINT
+System.Data.SqlServerCe.SqlCeException (0x80004005): A column ID occurred more than once in the specification.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Tool\hbm2ddl\SchemaUpdate.cs:line 190
+2015-05-14 14:25:09,634 [10] NHibernate.Tool.hbm2ddl.SchemaUpdate - (null) - Unsuccessful: alter table ivNetListingDetail add IsVetted TINYINT
+System.Data.SqlServerCe.SqlCeException (0x80004005): A column ID occurred more than once in the specification.
+   at System.Data.SqlServerCe.SqlCeCommand.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommandText(IntPtr& pCursor, Boolean& isBaseTableCursor)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at NHibernate.Tool.hbm2ddl.SchemaUpdate.Execute(Action`1 scriptAction, Boolean doUpdate) in c:\Users\sebros\Documents\My Projects\nhibernate-core\src\NHibernate\Tool\hbm2ddl\SchemaUpdate.cs:line 190
+2015-05-14 15:13:21,206 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 15:42:49,599 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 15:49:47,611 [23] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 15:51:23,879 [5] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.Web.HttpCompileException (0x80004005): f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Themes\ivNet.ShowDigs\Views\Shared\_EmailForm.cshtml(1): error CS0246: The type or namespace name 'Recaptcha' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Themes_ivNet_ShowDigs_Views_Content_url_contact_cshtml.Execute() in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Themes\ivNet.ShowDigs\Views\Content-url-contact.cshtml:line 1
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at ASP._Page_Core_Contents_Views_Item_Display_cshtml.Execute() in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Core\Contents\Views\Item\Display.cshtml:line 6
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 59
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-05-14 15:55:53,966 [10] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 15:56:31,661 [10] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: The partial view 'Listings/_Edit' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Themes/ivNet.ShowDigs/Views/Contents/Item/Listings/_Edit.cshtml
+~/Themes/ivNet.ShowDigs/Views/Listings/_Edit.cshtml
+~/Themes/PJS.Bootstrap/Views/Contents/Item/Listings/_Edit.cshtml
+~/Themes/PJS.Bootstrap/Views/Listings/_Edit.cshtml
+~/Core/Contents/Views/Item/Listings/_Edit.cshtml
+~/Modules/Contents/Views/Item/Listings/_Edit.cshtml
+~/Themes/Contents/Views/Item/Listings/_Edit.cshtml
+~/Core/Reports/Views/Listings/_Edit.cshtml
+~/Core/Dashboard/Views/Listings/_Edit.cshtml
+~/Modules/TinyMce/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Taxonomies/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Tags/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Scripting/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Recipes/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Projections/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Pages/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Packaging/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Modules/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Media/Views/Listings/_Edit.cshtml
+~/Core/Containers/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.ImageEditor/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Fields/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Email/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.DesignerTools/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.ContentTypes/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.ContentPermissions/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Roles/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Users/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Workflows/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Comments/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.CodeGeneration/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.ContentPicker/Views/Listings/_Edit.cshtml
+~/Core/Contents/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Blogs/Views/Listings/_Edit.cshtml
+~/Core/Shapes/Views/Listings/_Edit.cshtml
+~/Core/Navigation/Views/Listings/_Edit.cshtml
+~/Core/Feeds/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Widgets/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Themes/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.PublishLater/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.MediaLibrary/Views/Listings/_Edit.cshtml
+~/Core/Title/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.MediaProcessing/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Forms/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.OutputCache/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Autoroute/Views/Listings/_Edit.cshtml
+~/Core/Scheduling/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Tokens/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.jQuery/Views/Listings/_Edit.cshtml
+~/Modules/Orchard.Alias/Views/Listings/_Edit.cshtml
+~/Core/Common/Views/Listings/_Edit.cshtml
+~/Core/Settings/Views/Listings/_Edit.cshtml
+~/Modules/ivNet.Mail/Views/Listings/_Edit.cshtml
+~/Modules/ivNet.Listing/Views/Listings/_Edit.cshtml
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Modules_ivNet_Listing_Views_Widget_Name_PackageAuthorisationTable_cshtml.Execute() in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Modules\ivNet.Listing\Views\Widget-Name-PackageAuthorisationTable.cshtml:line 21
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at Orchard.Core.Shapes.CoreShapes.Zone(Object Display, Object Shape, TextWriter Output) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Core\Shapes\CoreShapes.cs:line 267
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.PerformInvoke(DisplayContext displayContext, MethodInfo methodInfo, Object serviceInstance) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:line 64
+   at Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy.ShapeAttributeBindingStrategy.<>c__DisplayClass4.<CreateDelegate>b__3(DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAttributeStrategy\ShapeAttributeBindingStrategy.cs:line 55
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at ASP._Page_Themes_PJS_Bootstrap_Views_Layout_cshtml.<Execute>b__b9(Object x) in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Themes\PJS.Bootstrap\Views\Layout.cshtml:line 20
+   at CallSite.Target(Closure , CallSite , Func`2 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_Themes_PJS_Bootstrap_Views_Layout_cshtml.Execute() in f:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard.Web\Themes\PJS.Bootstrap\Views\Layout.cshtml:line 117
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.Render(ShapeDescriptor shapeDescriptor, DisplayContext displayContext, HarvestShapeInfo harvestShapeInfo, HarvestShapeHit harvestShapeHit) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 151
+   at Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy.ShapeTemplateBindingStrategy.<>c__DisplayClass26.<>c__DisplayClass28.<Discover>b__15(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeTemplateStrategy\ShapeTemplateBindingStrategy.cs:line 133
+   at Orchard.DisplayManagement.Descriptors.ShapeAlterationBuilder.<>c__DisplayClass3.<>c__DisplayClass5.<BoundAs>b__2(DisplayContext displayContext) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Descriptors\ShapeAlterationBuilder.cs:line 56
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 185
+   at Orchard.DisplayManagement.Implementation.DefaultDisplayManager.Execute(DisplayContext context) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DefaultDisplayManager.cs:line 94
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.ShapeExecute(Object shape) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 86
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.Invoke(String name, INamedEnumerable`1 parameters) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 44
+   at Orchard.DisplayManagement.Implementation.DisplayHelper.TryInvoke(InvokeBinder binder, Object[] args, Object& result) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\DisplayManagement\Implementation\DisplayHelper.cs:line 29
+   at CallSite.Target(Closure , CallSite , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.<>c__DisplayClass7.<FindView>b__5(ViewContext viewContext, TextWriter writer, IViewDataContainer viewDataContainer) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 63
+   at Orchard.Mvc.ViewEngines.ThemeAwareness.LayoutAwareViewEngine.LayoutView.Render(ViewContext viewContext, TextWriter writer) in e:\Orchard\www.showdigs.co.uk.v.1.8.1\src\Orchard\Mvc\ViewEngines\ThemeAwareness\LayoutAwareViewEngine.cs:line 90
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+2015-05-14 16:05:15,185 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 16:08:40,983 [17] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 16:11:40,990 [35] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 16:56:32,959 [10] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"
+2015-05-14 17:23:11,003 [7] Orchard.Environment.Extensions.ExtensionManager - (null) - No suitable loader found for extension "ivNet.ShowDigs"

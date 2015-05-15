@@ -10,9 +10,7 @@ namespace ivNet.Listing.Entities
 
         public virtual string Surname { get; set; }        
         public virtual string Firstname { get; set; }
-        public virtual int UserId { get; set; }
-
-        public virtual byte IsVetted { get; set; }
+        public virtual int UserId { get; set; }        
 
         public virtual AddressDetail AddressDetail { get; set; }
         public virtual ContactDetail ContactDetail { get; set; }
@@ -36,7 +34,7 @@ namespace ivNet.Listing.Entities
             Map(x => x.Surname).Not.Nullable().Length(50);
             Map(x => x.Firstname).Not.Nullable().Length(50);
 
-            Map(x => x.IsVetted);
+            
             Map(x => x.IsActive);
 
             References(x => x.AddressDetail);

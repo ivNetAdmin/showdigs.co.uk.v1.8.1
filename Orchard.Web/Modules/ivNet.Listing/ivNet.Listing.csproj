@@ -427,7 +427,9 @@
     <Content Include="Views\Admin\Configuration\Index.cshtml" />
     <Content Include="Views\Admin\Configuration\_Categories.cshtml" />
     <Content Include="Views\Admin\UserStories\_Configuration.cshtml" />
+    <Content Include="Views\Admin\UserStories\_Admin.cshtml" />
     <None Include="Views\Admin\UserStories\_Registration.cshtml" />
+    <None Include="Views\Listings\_Edit.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
@@ -447,6 +449,9 @@
     <Content Include="Views\Listings\_Description.cshtml" />
     <Content Include="Views\Listings\_List.cshtml" />
     <Content Include="Views\Listings\_WebsiteUrl.cshtml" />
+    <Content Include="Views\Widget-Name-PackageAuthorisationTable.cshtml" />
+    <Content Include="Views\Listings\_ListAdmin.cshtml" />
+    <Content Include="Views\Widget-Name-AdminListingsTable.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Orchard.Core">
@@ -460,6 +465,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AdminSiteController.cs" />
+    <Compile Include="Controllers\api\AdminListingController.cs" />
     <Compile Include="Controllers\api\CategoryController.cs" />
     <Compile Include="Controllers\api\ConfigurationController.cs" />
     <Compile Include="Controllers\api\ListingController.cs" />

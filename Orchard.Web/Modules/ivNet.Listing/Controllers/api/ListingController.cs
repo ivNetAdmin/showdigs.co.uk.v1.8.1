@@ -29,8 +29,8 @@ namespace ivNet.Listing.Controllers.api
         {
 
             if (!_orchardServices.Authorizer.Authorize(Permissions.ivOwnerTab))
-                return Request.CreateResponse(HttpStatusCode.Forbidden);
-
+                return Request.CreateResponse(HttpStatusCode.Forbidden);        
+            
             var eMail = _orchardServices.WorkContext.CurrentUser.Email;
 
             return Request.CreateResponse(HttpStatusCode.OK,
@@ -45,6 +45,6 @@ namespace ivNet.Listing.Controllers.api
 
             return Request.CreateResponse(HttpStatusCode.OK,
                _listingServices.GetListing(id));
-        }
+        }      
     }
 }
